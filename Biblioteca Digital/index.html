@@ -1,18 +1,31 @@
 <!DOCTYPE HTML>
 <html lang = "pt-br">
+
 <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <Title> Biblioteca Digital </Title>
 </head>
 <body>
     <header>
-        <h1> Biblioteca Digital</h1>
-        <nav> 
+        <div class="cabecalho">
+            <h1> Biblioteca Digital</h1>
+
+        </div>
+    </header>
+    
+    
+    <nav>
+        <div class="conteudo">
             <a href="#RF"> Requisitos Funcionais</a>
             <a href="#NF"> Requisitos não funcionais </a>
             <a href="#IV"> Requisitos Inverso </a>
-        </nav>
-    </header>
-    <main> 
+        </div> 
+           
+    </nav>
+
+    <main>
+
         <h2 id="RF">Requisitos Funcionais</h2> 
         <ul>
             <li>Cadastro de Gerenciamento do acervo de livros </li>
@@ -29,17 +42,25 @@
 
         <h2 id="NF"> Requisitos não Funcionais</h2>
         <ul>
-            <li>Sistema fácil de usar</li>
-            <li>Acesso em dispositivos móveis</li>
-            <li>Segurança (login)</li>
-            <li>Disponibilidade online</li>
-            <li>Interface intuitiva</li>
+            <li>Sistema deve ser facil de usar (usabilidade)</li>
+            <li>Acesso em celulares e tablets (responsivo)</li>
+            <li>Bom desempenho (respostas rapidas)</li>
+            <li>Segurança com login e autenticação</li>
+            <li>Privacidade dos dados dos usuarios</li>
+            <li>Alta disponibilidade (Acesso a qualquer hora)</li>
+            <li>Interface intuitiva e organizada</li>
+            <li>Escalabilidade (suportar muitos usuarios)</li>
 
         </ul>
 
         <h2 id="IV"> Requisitos Inverso </h2>
         <ul>
             <li>Não permitir acesso de pessoas externas</li>
+            <li>Não permitir uso de sistemas sem login</li>
+            <li>Não permitir informações incorretas sem login</li>
+            <li>Não permitir que o sistema seja lento ou instavel</li>
+            <li>Não permitir perda de dados dos usuarios</li>
+
         </ul>
 
     </main>
